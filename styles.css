@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.billboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+    50% 100% no-repeat;
+  background-size: 1440px 1315px;
+}
+.navbar {
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
+      no-repeat 50% 50%,
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  height: 36px;
+  position: relative;
+  display: block;
+  width: 980px;
+  text-align: left;
+  z-index: 9998;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.navigation {
+  display: table;
+  float: left;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 3px;
+  list-style-type: none;
+}
+.list-item {
+  display: table-cell;
+  flex: 3;
+  list-style-type: none;
+  overflow: hidden;
+  border-right: 1px solid rgb(104, 101, 101);
+}
+.logo,
+.store,
+.mac,
+.ipod,
+.iphone,
+.itunes,
+.support {
+  height: 30px;
+  background-image: url(https://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  background-position: -25px -2px;
+}
+.store {
+  background-position: -20px -29px;
+}
+.mac {
+  background-position: -20px -59px;
+}
+.ipod {
+  background-position: -20px -89px;
+}
+.iphone {
+  background-position: -20px -119px;
+}
+.itunes {
+  background-position: -20px -179px;
+}
+.support {
+  background-position: -20px -209px;
+}
+.search-item {
+  flex: 4;
+  border-right: none;
+}
+.search {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 106px;
+  height: 20px;
+}
+.search form {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png)
+    0 0 no-repeat;
+}
+.search input {
+  width: 100px;
+  height: 19px;
+  background: url(https://web.archive.org//web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png)
+    0 0 no-repeat;
+  border-radius: 12px;
+  border: 0 none;
+  box-shadow: rgb(68, 67, 67) 0 1px 2px;
+  float: left;
+  margin-bottom: 7px;
+}
