@@ -1,0 +1,217 @@
+body {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    Verdana, sans-serif;
+}
+.billboard {
+  position: absolute;
+  height: 550px;
+  top: 0;
+  right: 0;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+    50% 100% no-repeat;
+  background-size: 1440px 1315px;
+}
+.navbar {
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
+      no-repeat 50% 50%,
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  height: 36px;
+  position: relative;
+  display: block;
+  width: 980px;
+  text-align: left;
+  z-index: 9998;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 87px;
+  border-radius: 5px;
+}
+.navigation {
+  display: table;
+  float: left;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 3px;
+  list-style-type: none;
+}
+.list-item {
+  display: table-cell;
+  flex: 3;
+  list-style-type: none;
+  overflow: hidden;
+  border-right: 1px solid rgb(104, 101, 101);
+}
+.logo,
+.store,
+.mac,
+.ipod,
+.iphone,
+.itunes,
+.support {
+  height: 30px;
+  background-image: url(https://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  background-position: -25px -2px;
+}
+.store {
+  background-position: -20px -29px;
+}
+.mac {
+  background-position: -20px -59px;
+}
+.ipod {
+  background-position: -20px -89px;
+}
+.iphone {
+  background-position: -20px -119px;
+}
+.itunes {
+  background-position: -20px -179px;
+}
+.support {
+  background-position: -20px -209px;
+}
+.search-item {
+  flex: 4;
+  border-right: none;
+}
+.search {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 106px;
+  height: 20px;
+}
+.search form {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png)
+    0 0 no-repeat;
+}
+.search input {
+  width: 100px;
+  height: 19px;
+  background: url(https://web.archive.org//web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png)
+    0 0 no-repeat;
+  border-radius: 12px;
+  border: 0 none;
+  box-shadow: rgb(68, 67, 67) 0 1px 2px;
+  float: left;
+  margin-bottom: 7px;
+}
+.header {
+  position: relative;
+  width: 980px;
+  height: 235px;
+  margin: -170px auto 0 auto;
+  padding: 50px 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+}
+.description {
+  width: 980px;
+  height: 31px;
+  overflow: hidden;
+}
+aside {
+  display: flex;
+  width: 100%;
+  margin-top: 551px;
+}
+.promo {
+  flex: 1;
+  height: 200px;
+  text-align: center;
+  margin: 2px 1px 0 1px;
+  overflow: hidden;
+}
+.promo a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+.promo img {
+  position: relative;
+  left: -13px;
+}
+footer {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -58px;
+  min-width: 980px;
+  height: 90px;
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+}
+footer {
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+.homefooter {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #08c;
+}
+.right-content {
+  float: right;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+  display: flex;
+}
+.item {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+.left-content {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+  display: flex;
+}
+.left-content ul {
+  display: flex;
+  margin-left: 8px;
+}
+.second {
+  display: inline;
+  margin-left: 5px;
+  border-left: 1px solid #ccc;
+}
