@@ -116,3 +116,35 @@
   float: left;
   margin-bottom: 7px;
 }
+.header {
+  position: relative;
+  width: 980px;
+  height: 235px;
+  margin: 20px auto 0 auto;
+  padding: 50px 0;
+}
+.description {
+  width: 980px;
+  height: 31px;
+  overflow: hidden;
+}
+aside {
+  display: flex;
+  width: 100%;
+  margin-top: 530px;
+}
+.promo {
+  flex: 1;
+  height: 200px;
+  text-align: center;
+  margin: 2px 1px 0 1px;
+  overflow: hidden;
+}
+.promo a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+.promo img {
+  position: relative;
+  left: -13px;
+}
